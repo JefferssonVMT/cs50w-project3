@@ -6,11 +6,16 @@ Toque personal: Historial de pedidos para el usuario.
 
  ¡Muy bien, es momento de realmente construir nuestra aplicación web! Aquí están los requerimientos:
 
-    - Menu: Tu aplicación web deberá soportar todos los elementos del menú disponibles para Pinocchio's Pizza & Subs (un lugar popular de pizzas en Cambridge). Está en tu cuenta, basado en analizar el menú y los varios tipos de elementos ordenados (pequeño vs grande, coberturas, adicionales, etc) para decidir cómo construir tus modelos para representar mejor la información. Agrega tus modelos a orders/models.py, realiza las migraciones de archivos necesarias, y aplicar esas migraciones.
+    - Menu: Tu aplicación web deberá soportar todos los elementos del menú disponibles para Pinocchio's Pizza & Subs (un lugar popular de pizzas en Cambridge). 
+    Está en tu cuenta, basado en analizar el menú y los varios tipos de elementos ordenados (pequeño vs grande, coberturas, adicionales, etc) para 
+    decidir cómo construir tus modelos para representar mejor la información. 
+    Agrega tus modelos a orders/models.py, realiza las migraciones de archivos necesarias, y aplicar esas migraciones.
     
-    - Agregando Items: Usa Django Admin, Administradores del sitio (para los dueños del restaurante) que deberán ser capaz de agregar, actualizar y remover ítems en el menú. Agrega todos los ítems desde el menú de Pinocchio en tu base de datos usando ya sea el Admin UI o ejecutando comandos Python en el shell de Django.
+    - Agregando Items: Usa Django Admin, Administradores del sitio (para los dueños del restaurante) que deberán ser capaz de agregar, actualizar y remover ítems en el menú. 
+    Agrega todos los ítems desde el menú de Pinocchio en tu base de datos usando ya sea el Admin UI o ejecutando comandos Python en el shell de Django.
     
-    - Registro, Login, Logout: Usuarios del sitio (clientes) deberán ser capaces de registrarse para tu aplicación web con un nombre de usuario, contraseña, primer nombre, apellido, y su dirección email. Los clientes deberán luego ser capaz de acceder y salir de tu sitio web.
+    - Registro, Login, Logout: Usuarios del sitio (clientes) deberán ser capaces de registrarse para tu aplicación web con un nombre de usuario, contraseña, primer nombre, apellido, y su dirección email. 
+    Los clientes deberán luego ser capaz de acceder y salir de tu sitio web.
     -Carrito de Compras: Una vez que accedan, los usuarios deberán ver una representación del menú del restaurante, donde ellos puedan agregar ítems (según con coberturas o extras, si es apropiado) a su “carrito de compras” virtual. El contenido de las compras deberán ser guardadas incluso si el usuario cierra la ventana, o sale y vuelve acceder de nuevo.
     
     - Colocar una Orden: Una vez que al menos esté un ítem en el carrito de compras del usuario, ellos deberán ser capaces de colocar una orden, donde el usuario se le pregunta si confirma los ítems en el carrito de compras, y el total (¡no necesitas preocuparte sobre impuestos!) antes de colocar una orden.
